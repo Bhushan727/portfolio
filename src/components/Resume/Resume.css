@@ -1,0 +1,162 @@
+.resume{
+    width: 90vw;
+    /* height: 70vh; */
+    margin: auto;
+    padding:0 0 50px 0;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.resumeHeads{
+    width: fit-content;
+    border-bottom: 5px solid crimson;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0px 20px 10px 20px;
+    font-size: 2rem;
+}
+
+.resumeMain{
+    width: 80%;
+    height: 85%;
+    /* border: 1px solid blue; */
+    margin: auto;   
+    display: flex;
+}
+
+
+.resumeRight{
+    width: 45%;
+    /* height: 100%; */
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imgGuy{
+    width: 70%;
+    padding: 20px 20px 0 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 8px 8px rgba(0,0,0,0.11), 0 16px 16px rgba(0,0,0,0.11), 0 32px 32px rgba(0,0,0,0.11);
+    /* width: fit-content; */
+}
+.resume-guy{
+    height: 300px;
+    width: 80%;
+    position: relative;
+    bottom: -4px;
+}
+.iconCont{
+    width: 70%;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+
+
+.resumeLeft{
+    width: 55%;
+    /* height: 100%; */
+    /* border: 1px solid green; */
+    
+}
+.certfHead{
+    color: darkcyan;
+    padding: 15px 0;
+}
+.underLine{
+    width: 97%;
+    height: 3px;
+    background-color: darkcyan;
+}
+.certificateCont{
+    /* height: 30%; */
+    /* border: 2px solid blue; */
+    padding: 15px 25px 15px 0    ;
+}
+
+.firstCertif{
+    border-left: 5px solid aquamarine;
+    padding:5px 0 20px 30px;
+    position: relative;
+
+}
+
+.certifDate{
+    border: 1px solid black;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 5px ;
+    right: 5px;
+}
+.certifCompany{
+    margin: 15px 0;
+}
+
+.point{
+    width: 25px;
+    height: 25px ;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position:absolute;
+    top: 0px;
+    left: -15px;
+}
+.resumeDownload{
+    font-size: 19px;
+    font-weight: 700;
+    font-style: italic;
+    color:darkturquoise;
+}
+.fa-solid{
+    color:darkslateblue;
+    font-size: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:650px) {
+    
+    .resume{
+        padding-top: 30px;
+    }
+    .resumeMain{
+        flex-direction: column-reverse;
+    }
+
+    .resumeRight{
+        width: 100%;
+    }
+    .imgGuy{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .resume-guy{
+        width: 100%;
+    }
+    .iconCont{
+        width: 100%;
+    }
+
+    .resumeLeft{
+        width: 100%;
+    }
+    .certifDate{
+        position: relative;
+    }
+
+
+}

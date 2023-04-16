@@ -1,0 +1,91 @@
+.about{
+    height: auto;
+    width: 60%;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgba(255, 255, 255, 0.953);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about_guy_img{
+    position: relative;
+    width: 50%;
+}
+.aboutImg{
+    position: absolute;
+    left: 15%;
+    bottom: 0;
+    height: 500px;
+}
+
+.aboutRit{
+    width: 50%;
+    height: 100%;
+    padding: 20px 25px  ;
+    position: relative;
+    z-index: 2;
+}
+.aboutHead{
+    display: inline-block;
+    border-bottom: 5px solid #FCA738;
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #105652;
+}
+.aboutPara1{
+    margin-top: 30px;
+    font-weight: 450;
+    font-size: 18px;
+    color: #105652;
+}
+.aboutPara2{
+    margin: 20px 0px;
+    
+    font-weight: 450;
+    font-size: 18px;
+    color: #105652;
+}
+
+.aboutTechCont{
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-color: #fff;
+}
+.aboutTech{
+    width: 100%;
+    margin: 5px 0px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.aboutIcons{
+    height: 45px;
+}
+
+@media screen and (max-width:650px) {
+    
+    .about{
+        flex-direction:column-reverse;
+        width: 90vw;
+    }
+
+    .aboutRit{
+        width: 95%;
+    }
+
+    .aboutImg{
+        opacity: 0.3;
+        height: 300px;
+    }
+
+}

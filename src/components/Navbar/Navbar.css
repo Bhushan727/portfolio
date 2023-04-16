@@ -1,0 +1,48 @@
+.navDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px 15px 50px;
+    border: 1px solid black;
+    background-color: #008080;
+}
+
+.left{
+    line-height: 30px;
+}
+.right{
+    display: flex;
+    list-style: none;
+
+}
+
+.links{
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    font-size: large;
+    font-weight: 500;
+    color: #000;
+}
+
+.links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color:crimson;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.links:hover::after{
+    width: 100%;
+    
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+
+    .right{
+        display: none;
+    }
+
+}

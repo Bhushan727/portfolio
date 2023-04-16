@@ -1,0 +1,83 @@
+.banner{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:#105652;
+    position: relative;
+}
+.waves{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.leftBanr{
+    margin: 3% 8%;
+}
+.nameTitle{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 38px;
+    font-weight: 530;
+    color:cyan;
+}
+.domain{
+    margin-top: 20px;
+    font-weight: 650;
+    font-size: 35px;
+    color: #fff;
+}
+.slogan{
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: cursive;
+    color:gold;
+}
+.btns{
+    margin-top: 35px;
+}
+
+button{
+    padding:8px 30px;
+    border:1px solid transparent;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 530;
+}
+button:hover{
+    cursor: pointer;
+}
+.leftBtn{
+    margin-right: 20px;
+}
+
+
+.imgBanner{
+    position: absolute;
+    right: 8%;
+    bottom: 0;
+    z-index: 2;
+    height: 480px;
+}
+
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+
+    .banner{
+        height: auto;
+        flex-direction: column;
+        /* overflow: auto; */
+    }
+    .leftBanr{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .imgBanner{
+        position: relative;
+        height: 300px;
+        
+    }
+}
